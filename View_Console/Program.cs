@@ -18,11 +18,11 @@ namespace View_Console
             string b = Console.ReadLine();
             Console.Write("Hlikia:");
             int a = Convert.ToInt32(Console.ReadLine());
-            int c = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("H Hlikia mou einai: {0}",a);
 
             Console.WriteLine($"H ilikia mou einai {a} kai katoikw ston {b}");
+            Console.WriteLine("The end");
         }
     }
 }
